@@ -4,7 +4,7 @@
   "description": "In this exercise I had to build a simple yet powerful webpack boilerplate, which I can later use as a starting point in my projects. I had to work with the webpack official guides, which I know already from the previous lesson.",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "watch": "webpack --serve --watch",
     "start": "webpack serve --open",
     "build": "webpack"
@@ -28,6 +28,7 @@
     "eslint-plugin-import": "^2.26.0",
     "hint": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.0",
     "style-loader": "^3.3.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
