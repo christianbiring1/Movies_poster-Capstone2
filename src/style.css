@@ -13,7 +13,7 @@ body {
 
 .container {
   width: 90%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .nav {
@@ -55,8 +55,8 @@ footer {
 
 .main-page {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  row-gap: 30px;
+  grid-template-columns: repeat(5, 240px);
+  gap: 30px 15px;
 }
 
 .movie-container {
@@ -64,6 +64,7 @@ footer {
 }
 
 .details {
+  margin: 5px 35px 0 0;
   display: flex;
   justify-content: space-between;
 }
@@ -89,4 +90,12 @@ button {
 
 button:hover {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .main-page {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 30px;
+    }
 }
