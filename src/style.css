@@ -94,8 +94,8 @@ button:hover {
 
 @media screen and (max-width: 768px) {
   .main-page {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      row-gap: 30px;
-    }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+  }
 }
