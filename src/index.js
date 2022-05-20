@@ -2,6 +2,17 @@ import './style.css';
 // import './modules/home.js';
 import generateUIElement, { get, sendLike, getLike } from './modules/home.js';
 
+const likeUpdate = async () => {
+  const likes = await getLike();
+  const likeCount = document.querySelectorAll('.likecount');
+  likeCount.forEach((el) => {
+    for (let i = 0; i < likes.length; i += 1) {
+      if (Number(el.id) === likes[i].item_id) {
+        el.textContent = `${likes[i].likes} likes`;
+      }
+    }
+  });
+};
 const displayItem = async () => {
   const movies = await get();
   generateUIElement(movies);
@@ -25,16 +36,6 @@ const displayItem = async () => {
         }
       });
     });
-  });
-  const likeCount = document.querySelectorAll('.likecount');
-  likeCount.forEach((el) => {
-    console.log(parseInt(el.id, 10));
-    const likeUpdate = async () => {
-      const likes = await getLike();
-      if (parseInt(el.id, 10) === likes.item_id) {
-        el.textContent = `${likes.likes} likes`;
-      }
-    };
     likeUpdate();
   });
 };

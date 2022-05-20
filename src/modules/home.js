@@ -68,7 +68,7 @@ const generateUIElement = async (data) => {
     const likeCount = document.createElement('span');
     likeCount.classList.add('likecount');
     likeCount.setAttribute('Id', `${data[i].id}`);
-    likeCount.textContent = '';
+    likeCount.textContent = '0 likes';
     stats.append(icone, likeCount);
     details.append(title, stats);
     const movieBtn = document.createElement('div');
