@@ -37,14 +37,12 @@ const sendLike = async (itemID) => {
   const likeSent = response.text();
   return likeSent;
 };
-// sendLike();
 
 const getLike = async () => {
   const response = await fetch(likesUrl);
   const likes = await response.json();
   return likes;
 };
-// getLike();
 
 /* ************** Generate Items Dynamical ***************** */
 
@@ -87,15 +85,5 @@ const generateUIElement = async (data) => {
   }
 };
 
-// const Updatelike = () => {
-//   getLike().then((res) => {
-//     const likeCount = document.querySelectorAll('.likecount');
-//     for (let i = 0; i < likeCount.length; i += 1) {
-//       likeCount[i].textContent = `${res[0].likes}`;
-//     }
-//   });
-// };
-
-// Updatelike();
 export default generateUIElement;
 export { get, sendLike, getLike };

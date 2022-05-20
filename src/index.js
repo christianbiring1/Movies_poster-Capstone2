@@ -1,5 +1,5 @@
 import './style.css';
-// import './modules/home.js';
+import './modules/movieCounter.js';
 import generateUIElement, { get, sendLike, getLike } from './modules/home.js';
 
 const likeUpdate = async () => {
