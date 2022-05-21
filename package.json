@@ -4,7 +4,7 @@
   "description": "In this exercise I had to build a simple yet powerful webpack boilerplate, which I can later use as a starting point in my projects. I had to work with the webpack official guides, which I know already from the previous lesson.",
   "private": true,
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "watch": "webpack --serve --watch",
     "start": "webpack serve --open",
     "build": "webpack"
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/christianbiring1/setup_project_with_webpack#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.18.0",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
@@ -39,6 +40,8 @@
     "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "babel-jest": "^28.1.0",
+    "lodash": "^4.17.21",
+    "ts-jest": "^28.0.2"
   }
 }

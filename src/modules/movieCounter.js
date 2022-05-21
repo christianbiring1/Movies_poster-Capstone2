@@ -8,5 +8,3 @@ const counter = async () => {
   return number;
 };
 counter();
-
-export default counter;

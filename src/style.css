@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Poppins', Times, serif;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), #fff);
+  background: linear-gradient(to left, #0000001a, #2e8b5733);
 }
 
 .nav {
@@ -23,6 +23,7 @@ body {
   position: fixed;
   width: 100%;
   background-color: #fff;
+  box-shadow: 2px 2px 2px lightblue;
   top: 0;
   z-index: 999;
 }
@@ -48,7 +49,17 @@ header {
   text-align: center;
   text-transform: capitalize;
   font-size: 18px;
-  margin: 10px 0;
+  margin-top: 100px;
+}
+
+header p:first-of-type {
+  color: seagreen;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+header p:last-of-type {
+  color: #19472d;
 }
 
 .Moviecounter {
@@ -76,14 +87,16 @@ header {
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  padding: 10px;
+  background-color: #fff;
 }
 
 .nav-middle .nav-items li a {
   margin-left: 25px;
   text-decoration: none;
-  color: rgb(25, 71, 45);
+  color: #19472d;
   font-size: 18px;
   cursor: pointer;
 }
@@ -144,8 +157,8 @@ i:active {
 button {
   padding: 0.3rem 0.5rem;
   margin-bottom: 10px;
-  box-shadow: 2px 2px 2px #000;
-  border-color: rgb(61, 60, 60);
+  box-shadow: 1.5px 2px 1px #000;
+  border: 1px solid rgb(61, 60, 60);
   font-size: 1rem;
   font-family: inherit;
   border-radius: 10px;
@@ -183,7 +196,6 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-    margin-top: -20px;
   }
 
   .nav-items {
@@ -199,7 +211,7 @@ button:hover {
     background-repeat: no-repeat;
     background-size: 200px;
     width: 200px;
-    height: 100px;
+    height: 60px;
     background-position: center;
   }
 
@@ -227,18 +239,5 @@ button:hover {
 
   .movieBtn {
     text-align: center;
-  }
-
-  button {
-    padding: 0.3rem 0.5rem;
-    margin-bottom: 10px;
-    box-shadow: 2px 2px 2px #000;
-    border-color: rgb(61, 60, 60);
-    font-size: 1rem;
-    font-family: inherit;
-  }
-
-  button:hover {
-    transform: scale(1.1);
   }
 }
