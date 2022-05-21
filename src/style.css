@@ -64,7 +64,7 @@ header p:last-of-type {
 
 .Moviecounter {
   color: #000;
-  animation: effect 5s ease-in-out 5s infinite alternate both;
+  animation: effect 2s ease-in-out 2s infinite alternate both;
 }
 
 @keyframes effect {
