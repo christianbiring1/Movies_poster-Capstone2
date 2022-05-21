@@ -49,7 +49,7 @@ const getLike = async () => {
 const generateUIElement = async (data) => {
   for (let i = 0; i < data.length; i += 1) {
     const movieContainer = document.createElement('div');
-    movieContainer.classList.add('movie-conatiner');
+    movieContainer.classList.add('movie-container');
     const Img = document.createElement('img');
     Img.setAttribute('src', `${data[i].image.medium}`);
     Img.setAttribute('alt', `affiche of ${data[i].name}`);
