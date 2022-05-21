@@ -52,7 +52,7 @@ header {
 }
 
 .Moviecounter {
-  color:#000;
+  color: #000;
   animation: effect 5s ease-in-out 5s infinite alternate both;
 }
 
@@ -60,12 +60,15 @@ header {
   0% {
     color: #000;
   }
+
   25% {
     color: blue;
   }
+
   50% {
     color: rebeccapurple;
   }
+
   100% {
     color: seagreen;
   }
@@ -152,7 +155,7 @@ button:hover {
   transform: scale(1.1);
 }
 
-@media screen  and (min-width: 500px){
+@media screen  and (min-width: 500px) {
   .nav {
     flex-direction: row;
   }
@@ -163,6 +166,7 @@ button:hover {
     gap: 0 15px;
     width: 95%;
   }
+
   .movie-container {
     background-color: transparent;
     text-align: center;
@@ -170,7 +174,7 @@ button:hover {
     border-right-color: #000;
     padding: 0 5px;
     border-radius: 15px;
-}
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -181,7 +185,7 @@ button:hover {
     padding: 0 10px;
     margin-top: -20px;
   }
-  
+
   .nav-items {
     display: flex;
     justify-content: space-between;
@@ -189,7 +193,7 @@ button:hover {
     list-style: none;
     margin-right: 30px;
   }
-  
+
   .nav-left {
     background: url('../images/tvm_api.png');
     background-repeat: no-repeat;
@@ -204,27 +208,27 @@ button:hover {
     grid-template-columns: repeat(5, 240px);
     gap: 0 15px;
   }
-  
+
   .movie-container {
     width: fit-content;
   }
-  
+
   .details {
     margin: 5px 35px 0 0;
     display: flex;
     justify-content: space-between;
   }
-  
+
   .stats {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    }
-  
+  }
+
   .movieBtn {
     text-align: center;
   }
-  
+
   button {
     padding: 0.3rem 0.5rem;
     margin-bottom: 10px;
@@ -233,7 +237,7 @@ button:hover {
     font-size: 1rem;
     font-family: inherit;
   }
-  
+
   button:hover {
     transform: scale(1.1);
   }
