@@ -2,7 +2,7 @@
 
 > Description of the project.
 
-- In this capstone project I have built is based on an online website for a conference. We have been provided some design guidelines to create the website, but I have personalized the content, i.e., instead of a conference I have built a website for geniune charity and care.
+- The JavaScript capstone project was about building your my own web application based on an external API. I had to select an API that provides data about the movie show and then build the webapp around it.
 
 ## Built With
 
@@ -10,9 +10,9 @@
 - CSS
 - JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
-[You can check the live demo of my project here](https://christianbiring1.github.io/Capstone_project-module1/)
+You can check the live Demo [here](https://christianbiring1.github.io/Movies_poster-Capstone2/)
 
 ### Prerequisites
 
@@ -20,8 +20,8 @@
 
 ## Set up
 
-- git clone git@github.com:christianbiring1/Capstone_project-module1.git
-- cd Capstone_project-module1
+- git clone git@github.com:christianbiring1/Movies_poster-Capstone2.git
+- cd Movies_poster-Capstone2
 - open with live server
 
 ## Author
@@ -44,8 +44,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Want to acknowledge [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). who was the designer of the tamplate that serve me for reference
-- Hat tip to anyone who will take a glance to this project
+- Hat tip to anyone who contributed in one way or another
 
 ## 📝 License
 
