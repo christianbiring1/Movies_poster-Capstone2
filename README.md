@@ -20,8 +20,8 @@ You can check the live Demo [here](https://christianbiring1.github.io/Movies_pos
 
 ## Set up
 
-- git clone git@github.com:christianbiring1/Movies_poster-Capstone2.git
-- cd Movies_poster-Capstone2
+- git clone `git@github.com:christianbiring1/Movies_poster-Capstone2.git`
+- cd `Movies_poster-Capstone2`
 - open with live server
 
 ## Author
